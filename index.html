@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container flex">
+        <div class="header flex flex-1">
+            <h1 class="fullName"></h1>
+            <button class="logout">logout</button>
+        </div>
+        <div class="allChats flex-8">
+            <div class="someonechat">
+                <p class=userNameTag>someone</p>
+                <div class="box flex">            
+                    <div class="profile flex flex-1">X</div>
+                    <div class="text flex flex-4">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="mychat">
+                <p class=userNameTag>my name</p>
+                <div class="box flex">                      
+                    <div class="text flex flex-4">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    </div>
+                    <div class="profile flex flex-1">X</div>
+                </div>
+            </div>
+            <div class="someonechat">
+                <p class=userNameTag>someone</p>
+                <div class="box flex">            
+                    <div class="profile flex flex-1">X</div>
+                    <div class="text flex flex-4">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer flex flex-1">
+            <button class="attach flex flex-1">📎</button>
+            <div class="typing flex flex-4">Wreate a message...</div>
+            <button class="sendBtn flex flex-1">➜</button>
+        </div>             
+    </div>
+<script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-firestore.js"></script>
+
+<script src="js/base.js" ></script>
+<script src="js/index.js"></script>    
+</body>
+</html>

@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+* {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-1 {flex: 1;}
+.flex-2 {flex: 2;}
+.flex-3 {flex: 3;}
+.flex-4 {flex: 4;}
+.flex-4 {flex: 5;}
+.flex-8 {flex: 8;}
+
+.container {
+    height: 90%;
+    width: 400px;
+    padding: 1%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;  
+    flex-direction: column;  
+}
+
+/* HEADER */
+
+.header {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid grey;
+}
+
+.fullName {
+    font-size: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+.logout {
+    border: none;
+    background-color: #353DF0;
+    color: #fff;
+    width: 50px;
+    height: 30px;
+    outline: none;
+    cursor: pointer;
+}
+
+/* CHATS */
+
+.allChats {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.profile {
+    height: 62px;
+    border-radius: 50%;
+    background-color: #FACE52;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.text {
+    background-color: #353DF0;
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px;
+}
+
+.mychat .text {
+    background-color: #E834EC;
+}
+
+.mychat .userNameTag {
+    text-align: end;
+}
+
+.userNameTag {
+    margin: 10px 0;
+    color: grey;
+}
+
+/*FOOTER*/
+.footer {
+    width: 100%;
+    border-top: 1px solid grey;
+}
+
+.attach {
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+
+.typing {
+    color: grey;
+    align-items: center;
+    padding: 2%;
+}
+
+.sendBtn {
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    background-color: #353DF0;
+    cursor: pointer;
+    color: #fff;
+    outline: none;
+    border: none;
+}
+
+
+/* Works on Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #D5D5D5 #fff;
+  }
+  
+  /* Works on Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: #fff;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: #D5D5D5;
+    border-radius: 20px;
+    border: 3px solid #fff;
+  }
