@@ -6,12 +6,11 @@ document.querySelector(".signIn").onclick = () => {
     .then((userCredential) => {
         // Signed in
         var user = userCredential.user;
-        window.location = 'index.html';
+        window.location = 'index.html';        
     })
     .catch((error) => {
         alert(error.message);
     });
-
 }
 
 firebase.auth().onAuthStateChanged((user) => {
@@ -19,7 +18,7 @@ firebase.auth().onAuthStateChanged((user) => {
       var uid = user.uid;
       window.location = "index.html";
     } else {
-        console.log("Not Login");
+        console.log("Nevterch orno uu");
     }
 });
 

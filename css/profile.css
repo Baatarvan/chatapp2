@@ -1,0 +1,56 @@
+.container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;    
+}
+
+.start {
+    width: 340px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+input {
+    width: 340px;
+    height: 30px;
+    border: 1px solid grey;
+    outline: none;
+    margin: 10px 0;
+}
+
+.container h1 {
+    margin: 30px 0;
+}
+
+.signIn {
+    width: 82%;
+    height: 10%;
+    background-color: #353DF0;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.register {
+    height: 50px;
+    width: 290px;
+    align-items: flex-end;
+}
+
+.save {
+    cursor: pointer;
+    background-color: #353DF0;
+    outline: none;
+    border: none;
+    color: #fff;
+    width: 50px;
+    height: 30px;
+}

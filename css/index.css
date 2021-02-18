@@ -1,54 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
-* {
-    margin: 0;
-    font-family: 'Roboto', sans-serif;
-}
-
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    box-sizing: border-box;
-}
-
-.flex {
-    display: flex;
-}
-
-.flex-1 {flex: 1;}
-.flex-2 {flex: 2;}
-.flex-3 {flex: 3;}
-.flex-4 {flex: 4;}
-.flex-4 {flex: 5;}
-.flex-8 {flex: 8;}
-
 .container {
-    height: 90%;
-    width: 400px;
+    height: 80%;
     padding: 1%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #fff;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;  
-    flex-direction: column;  
+    flex-direction: column;
 }
 
 /* HEADER */
 
 .header {
-    width: 100%;
+    width: 440px;
     justify-content: center;
     align-items: center;
     border-bottom: 1px solid grey;
+    min-height: 40px;
 }
 
-.fullName {
+.email {
     font-size: 20px;
     margin-right: 10px;
     cursor: pointer;
-    text-transform: capitalize;
 }
 
 .logout {
@@ -64,8 +38,8 @@ body {
 /* CHATS */
 
 .allChats {
+    width: 440px;
     overflow: scroll;
-    overflow-x: hidden;
 }
 
 .profile {
@@ -80,7 +54,6 @@ body {
 
 .text {
     background-color: #353DF0;
-    border-radius: 10px;
     color: #fff;
     padding: 10px;
 }
@@ -100,11 +73,12 @@ body {
 
 /*FOOTER*/
 .footer {
-    width: 100%;
     border-top: 1px solid grey;
+    min-height: 40px;
 }
 
 .attach {
+    width: 74px;;
     justify-content: center;
     align-items: center;
     font-size: 25px;
@@ -115,12 +89,16 @@ body {
 }
 
 .typing {
+    width: 292px;
     color: grey;
     align-items: center;
     padding: 2%;
+    outline: none;
+    border: none;
 }
 
 .sendBtn {
+    width: 74px;
     justify-content: center;
     align-items: center;
     font-size: 25px;
